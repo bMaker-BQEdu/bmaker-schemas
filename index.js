@@ -1,4 +1,4 @@
-const { CenterSchema, CounterSchema, ISBNSchema, LicenseSchema, OAuthClientSchema } = require('./schemas/license/schemas')
+const { CenterSchema, CounterSchema, ISBNSchema, LicenseSchema, OAuthClientSchema } = require('./license/index')
 
 exports.CenterSchema = CenterSchema
 exports.CounterSchema = CounterSchema
