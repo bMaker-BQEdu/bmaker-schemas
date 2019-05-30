@@ -1,0 +1,25 @@
+{
+  "name": "@bmaker/schemas",
+  "version": "v0.0.1",
+  "license": "GPL-3.0",
+  "description": "This project stores all database schemas",
+  "contributors": [
+    "Carlos Gutierrez Paradela <carlos.gutierrez@bq.com>",
+    "Jesús Vállez Gomis <jesusvg91@gmail.com> (https://jesusvallez.github.io/)",
+    "Sergio Novillo Felix <sergio.nf96@gmail.com>"
+  ],
+  "main": "src/index",
+  "types": "src/index",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@stash.bq.com:7999/swrob/bmaker-schemas.git"
+  },
+  "author": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "mongoose": "^5.4.19",
+    "mongoose-long": "^0.2.1"
+  }
+}
