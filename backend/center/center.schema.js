@@ -2,15 +2,9 @@ const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 
 /**
- * CenterLicense schema
+ * CenterBackend schema
  */
-const CenterLicenseSchema = new Schema({
-  center_id: {
-    type: Number,
-    required: true,
-    min: 0,
-    max: 2147483647
-  },
+const CenterBackendSchema = new Schema({
   name: {
     type: String,
     required: true,
@@ -40,7 +34,9 @@ const CenterLicenseSchema = new Schema({
     type: String,
     trim: true,
     required: true
-  }
+  },
+  deleted: Boolean
 }, { timestamps: true, versionKey: false })
 
-module.exports = CenterLicenseSchema
+
+module.exports = CenterBackendSchema

@@ -1,6 +1,6 @@
 {
   "name": "@bmaker/schemas",
-  "version": "v0.0.2",
+  "version": "v0.1.0",
   "license": "GPL-3.0",
   "description": "This project stores all database schemas",
   "contributors": [
@@ -16,10 +16,12 @@
   },
   "author": "",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "mongoose": "^5.4.19",
-    "mongoose-long": "^0.2.1"
+    "eslint": "^5.16.0",
+    "lodash": "^4.17.4",
+    "mongoose": "^5.4.19"
   }
 }
