@@ -99,13 +99,11 @@ const UserSchema = new Schema({
   },
   centers: [
     {
-      type: Schema.Types.ObjectId,
-      ref: 'Center'
+      type: Schema.Types.ObjectId
     }
   ],
   selectedCenter: {
-    type: Schema.Types.ObjectId,
-    ref: 'Center'
+    type: Schema.Types.ObjectId
   },
   totalStars: {
     type: Number,
